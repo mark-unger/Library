@@ -1,0 +1,78 @@
+#bookshelf,
+#shelf2 {
+    background-color: #A04400;
+    height: 400px;
+    width: 100%;
+    border-style: solid;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+}
+
+.book {
+    height: 400px;
+    width: 10%;
+    background-color: green;
+    border-style: solid;
+    border-width: 2px;
+    white-space: nowrap; /* or `pre` */
+    overflow: hidden;
+    display: inline-flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-family:'Gwendolyn', cursive;
+    font-size: 36px;
+    gap: 50px;
+    
+} 
+
+.delButton {
+    
+    margin-bottom: 10px;
+}
+#shelf2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#formDiv {
+    visibility: hidden;
+    width: 255px;
+    height: 115px;
+    border-radius: 10px;
+    border-style: ridge;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    visibility: hidden;
+}
+
+label {
+    text-align: right;
+}
+
+.submit {
+    width: 25%;
+    align-items: center;
+}
+
+#button {
+font-size: 32px;
+padding: 16px;
+border-radius: 5px;
+}
